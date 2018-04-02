@@ -1,0 +1,44 @@
+// Place all the styles related to the games controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+.game-title{
+  text-align: center;
+  color: darkgrey;
+  margin: 80px;
+}
+.form-title{
+  text-align: center;
+  color: darkgrey;
+  margin: 30px;
+}
+
+.letter-container {
+  display: flex;
+  justify-content: center;
+}
+.letter {
+  width: 70px;
+  height: 70px;
+  display: inline-block;
+  background-color: #18C2C0;
+  color: #F67280;
+  margin: 5px;
+  display: flex;
+  border-radius: 5px;
+  align-items: center;
+  justify-content: center;
+  font-weight: bolder;
+}
+html {
+  // background-color: #FCFCFC;
+  font-family: "Lato", sans-serif;
+  background: #007991; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, #007991, #78ffd6); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, #007991, #78ffd6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.form {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
